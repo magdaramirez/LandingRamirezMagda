@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!-- 
+Contáctame
+Magda Paola Ramírez Escalante
+00000233523 -->
+<html>
+    <head>
+        <title>Asignación 4</title>
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="background-color: pink">
+        <header style="background-color: beige; text-align: center">
+            <img src="img/icono.png" alt="Logotipo del Sitio" style="width: 50px; display: inline-block; vertical-align: middle;">
+            <h1 style="display: inline-block; vertical-align: middle;">ASIGNACIÓN 4</h1>
+        </header>
+        <nav style="text-align: center; background-color: sandybrown">
+            <b>
+                <a href="index.html">| Index |</a>
+                <a href="horario.html"> Horario |</a>
+                <a href="descripcion.html"> Descripción |</a>
+                <a href="aficiones.html"> Aficiones |</a>
+                <a href="contactame.html"> Contáctame |</a>
+            </b>
+        </nav>
+        <main>
+            <h2 style="text-align: center; font-size: 200%;">Contáctame</h2>
+            <center>
+                <p style="font-size: 120%; margin: 0 auto; text-align: center; max-width: 600px;">
+                    Completa el siguiente formulario para ponerte en contacto conmigo:</p>
+                <br>
+                <form action="mailto:magda.ramirez233523@potros.itson.edu.mx" method="post" enctype="text/plain">
+                    <label style="font-size: 120%" for="nombre"><b>Nombre:</b></label>
+                    <input style="font-size: 120%" type="text" id="nombre" name="nombre" required><br><br>
+
+                    <label style="font-size: 120%" for="direccion"><b>Dirección:</b></label>
+                    <input style="font-size: 120%" type="text" id="direccion" name="direccion"><br><br>
+
+                    <label style="font-size: 120%" for="email"><b>E-mail:</b></label>
+                    <input style="font-size: 120%" type="email" id="email" name="email" placeholder="tucorreo@example.com" required><br><br>
+
+                    <label style="font-size: 120%" for="edad"><b>¿Eres mayor de edad?:</b></label>
+                    <input type="radio" id="si" name="edad" required>
+                    <label style="font-size: 120%" for="si">Sí</label>
+                    <input type="radio" id="no" name="edad" required>
+                    <label style="font-size: 120%" for="no">No</label> <br><br>
+
+                    <label style="font-size: 120%" for="ocupacion"><b>Ocupación:</b></label>
+                    <input style="font-size: 120%" type="text" id="ocupacion" name="ocupacion"><br><br>
+
+                    <label style="font-size: 120%" for="aficiones"><b>Aficiones:</b></label><br>
+                    <input type="checkbox" id="musica" name="aficiones" value="Musica">
+                    <label style="font-size: 120%" for="musica">Música</label><br>
+                    <input type="checkbox" id="peliculas" name="aficiones" value="Peliculas">
+                    <label style="font-size: 120%" for="peliculas">Películas</label><br>
+                    <input type="checkbox" id="lectura" name="aficiones" value="Lectura">
+                    <label style="font-size: 120%" for="lectura">Lectura</label><br><br>
+
+                    <label style="font-size: 120%" for="mensaje"><b>Mensaje:</b></label><br>
+                    <textarea style="font-size: 120%" id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+                    <input style="font-size: 120%" type="submit" value="Enviar" />
+                    <input style="font-size: 120%" type="reset" value="Restablecer" />
+                    <br><br>
+                </form>
+            </center>
+        </main>
+        <footer style="text-align: center; background-color: beige">&copy; 2023 - Magda Ramírez - All rights reserved</footer>
+    </body>
+</html>
